@@ -1,14 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "setup": "node artengine/scripts/config_layers.js",
-    "build": "node artengine/scripts/build_collection.js",
-    "previews": "node artengine/scripts/build_previews.js",
-    "metadata": "node artengine/scripts/build_metadata.js",
-    "traitmap": "node artengine/scripts/build_traitmap.js",
-    "rarity": "node artengine/scripts/build_rarity.js",
-    "pinata": "node artengine/scripts/upload_to_pinata.js",
-    "nft.storage": "node artengine/scripts/upload_to_nft.storage.js"
+    "setup": "node scripts/config_layers.js",
+    "build": "node scripts/build_collection.js",
+    "previews": "node scripts/build_previews.js",
+    "metadata": "node scripts/build_metadata.js",
+    "traitmap": "node scripts/build_traitmap.js",
+    "rarity": "node scripts/build_rarity.js",
+    "pinata": "node scripts/upload_to_pinata.js",
+    "nft.storage": "node scripts/upload_to_nft.storage.js"
   },
   "devDependencies": {
     "axios": "0.26.1",
