@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "setup": "node artengine/scripts/config_layers.js",
+    "build": "node artengine/scripts/build_collection.js",
+    "previews": "node artengine/scripts/build_previews.js",
+    "metadata": "node artengine/scripts/build_metadata.js",
+    "traitmap": "node artengine/scripts/build_traitmap.js",
+    "rarity": "node artengine/scripts/build_rarity.js",
+    "pinata": "node artengine/scripts/upload_to_pinata.js",
+    "nft.storage": "node artengine/scripts/upload_to_nft.storage.js"
+  },
+  "devDependencies": {
+    "axios": "0.26.1",
+    "bottleneck": "2.19.5",
+    "dotenv": "^14.2.0",
+    "canvas": "^2.8.0",
+    "form-data": "4.0.0",
+    "fs-extra": "10.0.1",
+    "ipfs-only-hash": "4.0.0"
+  }
+}
